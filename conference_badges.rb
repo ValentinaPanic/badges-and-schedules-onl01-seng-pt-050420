@@ -10,4 +10,11 @@ list = []
   list
 end
 def assign_rooms(attendees)
+  list = []
+  room_assignments= 1
+  attendees.each do |name|
+    list.push ("Hello, #{name}! You'll be assigned to room #{room_assignments}!")
+    room_assignments +=1
+  end
+  list
 end
