@@ -7,4 +7,5 @@ list = []
   attendees.each do |badge|
   list.push("Hello, my name is #{badge}.")
   end
+  list
 end
